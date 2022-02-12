@@ -4,12 +4,14 @@ import { AppRoutingModule,RoutingComp } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeadComponent } from './head/head.component';
+import { HomeimgComponent } from './homeimg/homeimg.component';
 
 @NgModule({
   declarations: [
     AppComponent,
      RoutingComp,
-     HeadComponent
+     HeadComponent,
+     HomeimgComponent
   ],
   imports: [
     BrowserModule,

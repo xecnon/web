@@ -1,0 +1,12 @@
+.blac{
+    height: auto;
+    background-color: black;
+
+   }
+.frntimg{
+    height: auto;
+    width: 100%;
+    transform: translateY(-80px);
+    opacity: .5;
+    
+}
