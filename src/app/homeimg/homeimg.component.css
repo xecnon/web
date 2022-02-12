@@ -1,12 +1,66 @@
 .blac{
-    height: auto;
     background-color: black;
 
    }
 .frntimg{
     height: auto;
+    min-height: 600px;
     width: 100%;
+    object-fit: fill;
+
     transform: translateY(-80px);
     opacity: .5;
     
 }
+
+
+
+
+  h1{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    margin-top:     30%;
+    margin-left: 20%;
+    color: #f8f8f8;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 3px;
+    padding:4px 10px;
+  }
+  h1 span{
+    transition: .5s linear
+  }
+  h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  h1:hover span:nth-child(1):before{
+    content: "W";
+  }
+  h1:hover span:nth-child(1):after{
+    content: "L";
+  }
+  h1:hover span:nth-child(3):after{
+    content: "MES YOU";
+  }
+h1:hover{
+    color:rgba(255, 255, 255, 0.336);
+  border:none;
+  border-bottom: 2px solid white;
+  font-size: 1rem;
+
+  transition: .5s;
+    
+
+}
+  h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+  /*made with ❤, by qpi65*/
