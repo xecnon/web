@@ -1,25 +1,45 @@
+@keyframes scalee {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
 .blac{
     background-color: black;
+    min-height: 600px;
+    max-height: max-content;
+    overflow: hidden;
 
    }
 .frntimg{
     height: auto;
-    min-height: 600px;
     width: 100%;
-    object-fit: fill;
+    min-height: 600px;
 
+    object-fit: fill;
     transform: translateY(-80px);
     opacity: .5;
-    
+    animation: scalee 10s infinite;
 }
 
 
+hr{
 
+    z-index: 3;
+    color: yellow;
+    height: 2px;
+    opacity: 1;
+    margin-bottom: 0px;
+}
 
   h1{
     position: absolute;
     z-index: 2;
     display: flex;
+    min-width: 150px;
+    min-height: 50px;
     margin-top:     30%;
     margin-left: 20%;
     color: #f8f8f8;
@@ -31,6 +51,8 @@
     border:1px solid white;
     border-radius: 3px;
     padding:4px 10px;
+    transition: .5s ;
+    
   }
   h1 span{
     transition: .5s linear
@@ -40,6 +62,7 @@
   }
   h1:hover span:nth-child(1):before{
     content: "W";
+    
   }
   h1:hover span:nth-child(1):after{
     content: "L";
