@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeadComponent } from './head/head.component';
 import { HomeimgComponent } from './homeimg/homeimg.component';
+import { EmailmsgComponent } from './emailmsg/emailmsg.component';
 
 @NgModule({
   declarations: [
     AppComponent,
      RoutingComp,
      HeadComponent,
-     HomeimgComponent
+     HomeimgComponent,
+     EmailmsgComponent
   ],
   imports: [
     BrowserModule,
