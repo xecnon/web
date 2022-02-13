@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { HeadComponent } from './head/head.component';
 import { HomeimgComponent } from './homeimg/homeimg.component';
 import { EmailmsgComponent } from './emailmsg/emailmsg.component';
+import { FootComponent } from './foot/foot.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { EmailmsgComponent } from './emailmsg/emailmsg.component';
      RoutingComp,
      HeadComponent,
      HomeimgComponent,
-     EmailmsgComponent
+     EmailmsgComponent,
+     FootComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,35 @@
+.foot-cont{
+
+    background-color: orange;
+}
+.foot-ro{
+    height: 400px;
+}
+.par{
+
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.logo{
+    text-align: center;
+    padding-top: 200px;
+}
+hr{
+
+    height: 2px;
+    background-color: black;
+}
+.reachme{
+    text-align: center;
+     margin-top: 150px;
+    font-size: 28px;
+
+}
+.align-ico{
+    padding: 10px;
+}
+p{
+    text-align: center;
+}
