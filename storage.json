@@ -621,8 +621,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -631,8 +630,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1532,9 +1530,10 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/local/ZOHOCORP/selva-pt4377/self/xecnon/Backups/1644739762651",
+            "folder": "file:///home/local/ZOHOCORP/selva-pt4377/self/xecnon",
+            "backupPath": "/home/local/ZOHOCORP/selva-pt4377/self/xecnon/Backups/af7e6c39e22e95b9fa090ef617822b20",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 448,
                 "y": 193,
                 "width": 1024,

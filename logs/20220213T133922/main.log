@@ -8,3 +8,8 @@
 [2022-02-13 13:40:15.318] [main] [info] Extension host with pid 6100 exited with code: 0, signal: null.
 [2022-02-13 13:40:16.110] [main] [info] Starting extension host with pid 6220 (fork() took 5 ms).
 [2022-02-13 13:40:16.110] [main] [info] ExtensionHostStarterWorker.start() took 5 ms.
+[2022-02-13 13:45:45.613] [main] [info] Extension host with pid 6220 exited with code: 0, signal: null.
+[2022-02-13 13:45:46.338] [main] [info] Starting extension host with pid 7585 (fork() took 5 ms).
+[2022-02-13 13:45:46.338] [main] [info] ExtensionHostStarterWorker.start() took 5 ms.
+[2022-02-13 13:45:59.838] [main] [info] Extension host with pid 7585 exited with code: 0, signal: null.
+[2022-02-13 13:45:59.839] [main] [info] Waiting for extension host with pid 7585 to exit.

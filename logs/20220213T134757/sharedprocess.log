@@ -1,0 +1,3 @@
+[2022-02-13 13:47:59.228] [sharedprocess] [info] Starting worker process with pid 7889 (type: fileWatcher, window: 1).
+[2022-02-13 13:48:08.413] [sharedprocess] [info] Worker process with pid 7889 terminated normally (type: fileWatcher, window: 1).
+[2022-02-13 13:48:09.312] [sharedprocess] [info] Starting worker process with pid 7953 (type: fileWatcher, window: 1).
