@@ -6,10 +6,62 @@
         transform: scale(1.5);
     }
 }
+@keyframes fde-left {
+  0%{
+    transform:translateX(0px);
+opacity: 1;
+width: 0px;
+z-index: 3;
+}
+50%{
+width: 170px;
+transform:translateX(0px);
+
+}
+100%{
+  transform:translateX(170px);
+  opacity: 1;
+  width: 0px;
+z-index: 3;
+}
+}
+@keyframes spann {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.quote{
+  margin-top:     25%;
+  margin-left: 20%;
+font-size: 50px;
+font-weight: 100;
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+
+}
+.back{
+  opacity: 0;
+width:170px;
+height:60px;
+background-color: yellow;
+position: absolute;
+margin-top:     19.6%;
+margin-left: 20%;
+z-index: 2;
+animation: fde-left 1s ease-in-out;
+}
+
 .blac{
     background-color: black;
     min-height: 600px;
-    max-height: max-content;
+    max-height: 1000px;
     overflow: hidden;
 
    }
@@ -40,7 +92,7 @@ hr{
     display: flex;
     min-width: 150px;
     min-height: 50px;
-    margin-top:     30%;
+    margin-top:     20%;
     margin-left: 20%;
     color: #f8f8f8;
     font-size: 2rem;
@@ -48,51 +100,71 @@ hr{
     font-family: monospace;
     letter-spacing: 7px;
     cursor: pointer;
-    border:1px solid white;
     border-radius: 3px;
-    padding:4px 10px;
     transition: .5s ;
-    
+    animation: spann 1s ease-in-out;
   }
   h1 span{
+    color: red;
     transition: .5s linear
   }
   h1:hover span:nth-child(1){
-    margin-right: 5px
+    margin-right: 5px;
   }
   h1:hover span:nth-child(1):before{
     content: "W";
-    
+
   }
   h1:hover span:nth-child(1):after{
     content: "L";
+
   }
   h1:hover span:nth-child(3):after{
     content: "MES YOU";
+
   }
+  h1:hover span:nth-child(3){
+transform: translateX(-20px);  
+}
 h1:hover{
     color:rgba(255, 255, 255, 0.336);
   border:none;
-  border-bottom: 2px solid white;
   font-size: 1rem;
-
+  padding: 0px;
   transition: .5s;
     
 
 }
   h1:hover span{
+    margin-top:     30%;
     color: #fff;
     text-shadow: 0 0 10px #fff,
                  0 0 20px #fff, 
                  0 0 40px #fff;
+
   }
   /*made with ❤, by qpi65*/
+/* .txtabve{
 
+ 
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff, 
+               0 0 40px #fff;
+               font-size: 18px;
+
+} */
   @media only screen  and (max-width:992px) {
 
 h1{
   margin-top: 400px;
-  margin-left: 35px;
+  margin-left: 55px;
+}
+.back{
+  margin-top: 390px;
+  margin-left: 55px;
 }
 .frntimg{
 
