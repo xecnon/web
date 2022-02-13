@@ -16,6 +16,6 @@ mailc(mailid:String)
 {
 
 
-    window.location.href = "mailto:selvendhiranindru@gmail.com+?subject=Query&body=Hi this is "+mailid+"and i would like to know more about your website";
+    window.location.href = "mailto:selvendhiranindru@gmail.com+?subject=Query&body=Hi, this is "+mailid+" and i would like to know more about your website";
 }
 }
