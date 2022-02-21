@@ -26,3 +26,5 @@
 [2022-02-13 13:49:07.052] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
 [2022-02-13 14:07:45.946] [exthost] [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
 [2022-02-13 18:15:42.729] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2022-02-13 20:24:14.629] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-02-13 20:24:14.646] [exthost] [info] Extension host with pid 7941 exiting with code 0
