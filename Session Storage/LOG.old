@@ -1,2 +1,3 @@
-2022/02/13-13:45:59.834 1841 Creating DB /home/local/ZOHOCORP/selva-pt4377/self/xecnon/Session Storage since it was missing.
-2022/02/13-13:45:59.839 1841 Reusing MANIFEST /home/local/ZOHOCORP/selva-pt4377/self/xecnon/Session Storage/MANIFEST-000001
+2022/02/13-20:24:14.637 c8f8 Reusing MANIFEST /home/local/ZOHOCORP/selva-pt4377/self/xecnon/Session Storage/MANIFEST-000001
+2022/02/13-20:24:14.637 c8f8 Recovering log #3
+2022/02/13-20:24:14.637 c8f8 Reusing old log /home/local/ZOHOCORP/selva-pt4377/self/xecnon/Session Storage/000003.log 

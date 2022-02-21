@@ -12,3 +12,5 @@
 [2022-02-21 11:57:42.885] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 [2022-02-21 11:57:42.895] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
 [2022-02-21 12:04:07.245] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2022-02-21 12:12:07.753] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-02-21 12:12:07.764] [exthost] [info] Extension host with pid 13587 exiting with code 0
